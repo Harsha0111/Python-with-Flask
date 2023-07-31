@@ -1,4 +1,4 @@
-name: hello-world from a python 
+name: cronjob-hello-world 
 on: 
   schedule:
     - cron: "1 * * * *"
