@@ -1,16 +1,13 @@
 name: cronjob-hello-world 
-on: push
-  # schedule:
-  #   - cron: "1 * * * *"
+on: 
+  schedule:
+    - cron: "* * * * *"
 
 jobs:
   hello:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Date
-        run: date
-
       - name: Clone repo
         uses: actions/checkout@v3
 
