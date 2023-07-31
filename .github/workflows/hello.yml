@@ -1,14 +1,11 @@
-name: Python Hello World
-
-on:
-  push:
-    branches:
-      - main  
+name: helo-world
+on: push
 
 jobs:
-  print_hello:
+  hello:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Say Hello
+    - name: Print hello world
       run: echo "Hello, World!"
+
