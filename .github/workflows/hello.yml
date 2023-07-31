@@ -6,9 +6,9 @@ on:
       - main  
 
 jobs:
-  build:
+  print_hello:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Run Python script
-      run: echo "Hello World!"
+    - name: Say Hello
+      run: echo "Hello, World!"
