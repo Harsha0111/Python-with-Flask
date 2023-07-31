@@ -1,0 +1,10 @@
+name: hello-world from a python 
+on: push
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print hello world
+      run: python hello.py
