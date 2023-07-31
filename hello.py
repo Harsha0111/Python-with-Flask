@@ -2,4 +2,4 @@
 
 print('Hello, world!')
 
-print ("Hello, Github actions")
+print (" Github actions")
