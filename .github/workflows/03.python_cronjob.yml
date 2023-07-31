@@ -1,7 +1,8 @@
 name: cronjob-hello-world 
-on: 
+on:
   schedule:
-    - cron: "* * * * *"
+    - cron: '* * * * *'
+
 
 jobs:
   hello:
