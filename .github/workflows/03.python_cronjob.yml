@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Date
-        uses: date
+        run: date
 
       - name: Clone repo
         uses: actions/checkout@v3
